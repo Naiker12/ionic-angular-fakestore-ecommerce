@@ -1,0 +1,82 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 450px; 
+  margin: auto;
+
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    color: #5a00b3;
+  }
+
+  .checkout-card {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .custom-item {
+    --border-radius: 10px;
+    --border-color: #8000ff;
+    --border-width: 1.5px;
+    --inner-padding-end: 15px;
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 12px;
+    padding: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+    border: 1px solid #8000ff;
+    border-radius: 8px;
+  }
+
+  ion-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  ion-input {
+    background: white;
+    --padding-start: 12px;
+    --color: black;
+    --placeholder-color: gray;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    width: 100%;
+    color: #333;
+  }
+
+  ion-button {
+    margin-top: 16px;
+    --background: #8000ff;
+    --background-hover: #5a00b3;
+    --color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Carrito de compras</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="cart.length > 0; else emptyCart">
+    <ion-item *ngFor="let product of cart">
+      <ion-thumbnail slot="start">
+        <img [src]="product.image" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ product.title }}</h2>
+        <p>${{ product.price }} x {{ product.quantity }}</p>
+      </ion-label>
+      <ion-button (click)="decreaseQuantity(product)">-</ion-button>
+      <ion-button (click)="increaseQuantity(product)">+</ion-button>
+      <ion-button color="danger" (click)="removeProduct(product.id)">
+        Eliminar
+      </ion-button>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label class="total-label">Total a pagar:</ion-label>
+      <ion-label class="total-price">{{ getTotal() | currency }}</ion-label>
+    </ion-item>
+    
+    
+
+    <ion-button expand="full" color="danger" (click)="clearCart()">Vaciar carrito</ion-button>
+    <ion-button expand="full" color="primary" (click)="checkout()">Checkout</ion-button>
+  </ion-list>
+
+  <ng-template #emptyCart>
+    <ion-text color="medium">
+      <p style="text-align: center; margin-top: 20px;">El carrito está vacío.</p>
+    </ion-text>
+  </ng-template>
+</ion-content>

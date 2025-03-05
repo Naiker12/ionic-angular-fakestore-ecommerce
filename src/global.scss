@@ -1,0 +1,145 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+.glass-content {
+    background: rgba(19, 63, 176, 0.12); /* Reducida la opacidad */
+    box-shadow: 0 4px 30px rgba(7, 77, 216, 0.05); /* Sombra más suave */
+    backdrop-filter: blur(20px); /* Menos desenfoque */
+    -webkit-backdrop-filter: blur(20px);
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-content {
+    --ion-background-color: transparent;
+    color: white; 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    z-index: 2; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black; 
+  }
+  
+  ion-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/assets/img/fondo.avif") no-repeat center center/cover !important;
+    z-index: -1; 
+  }
+  
+
+ion-header {
+    background: url(/assets/img/bg.gif);
+}
+
+ion-toolbar {
+    --background: transparent;
+    background: rgba(19, 63, 176, 0.27);
+    box-shadow: 0 4px 30px rgba(7, 77, 216, 0.1);
+    backdrop-filter: blur(25.3px);
+    -webkit-backdrop-filter: blur(25.3px);
+    color: white;
+}
+
+
+ion-card {
+    margin: 20px;
+    background: rgba(7, 7, 7, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+ion-item {
+    --background: transparent;
+    color: white;
+}
+
+ion-icon {
+    color: white;
+}
+
+.loader {
+    text-align: center;
+    padding-top: 15vh;
+
+    ion-spinner {
+        padding: 50px;
+        --color: white;
+    }
+}
+
+p{
+    font-size: 1em;
+}
+
+
+ion-header {
+    --background: #FDEC47;
+    --color: #333;
+  }
+  
+  ion-toolbar {
+    --background: #FDEC47;
+    --color: #333;
+    font-weight: bold;
+  }
+  
+  ion-back-button {
+    --color: #333; 
+  }
+  

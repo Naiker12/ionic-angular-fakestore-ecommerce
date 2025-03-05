@@ -1,0 +1,7 @@
+{
+  "name": "mercado-express",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

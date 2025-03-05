@@ -1,0 +1,30 @@
+<ion-card class="product-card" *ngIf="product">
+  <div class="image-container">
+    <img [src]="product.image" alt="{{ product.title }}" />
+  </div>
+
+  <ion-card-header>
+    <div class="rating">
+      <ion-icon
+        name="star"
+        *ngFor="let star of getStars(product.rating.rate)"
+        class="star"
+      ></ion-icon>
+    </div>
+
+    <ion-card-title>{{ product.title }}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <p class="category">
+      Categoría: <strong>{{ product.category }}</strong>
+    </p>
+    <p class="price">
+      Precio: <strong>{{ product.price | currency : "USD" }}</strong>
+    </p>
+  </ion-card-content>
+
+  <div class="buttons">
+    <ion-button fill="outline" color="secondary">Ver detalles</ion-button>
+  </div>
+</ion-card>

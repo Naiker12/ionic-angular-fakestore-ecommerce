@@ -1,0 +1,27 @@
+<!-- IMPORTAMOS EL COMPONETE HEADER -->
+<app-header></app-header>
+
+<!-- IMPORTAMOS EL COMPONETE CART -->
+<ion-content>
+  <ion-grid>
+
+    <!-- IMPORTAMOS EL COMPONETE SELECT CATEGORY -->
+    <app-category-filter
+
+          (categorySelected)="filterByCategory($event)"
+          (orderChanged)="onOrderChanged($event)">
+
+    </app-category-filter>
+
+    <ion-row class="ion-justify-content-center">
+      <div class="products-container">
+        <app-product-card
+          *ngFor="let p of products"
+          [product]="p"
+          [routerLink]="['/product-detail', p.id]"
+        >
+        </app-product-card>
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

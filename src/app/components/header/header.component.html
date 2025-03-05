@@ -1,0 +1,12 @@
+
+<ion-header>
+  <ion-toolbar class="custom-toolbar">
+    <ion-title>Mercado Express</ion-title>
+    <ion-buttons slot="end">
+      <ion-button class="icon-button" (click)="openCart()" fill="clear">
+        <ion-icon name="cart-outline"></ion-icon>
+        <ion-badge class="badge" *ngIf="cartCount > 0">{{ cartCount }}</ion-badge>
+      </ion-button>   
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

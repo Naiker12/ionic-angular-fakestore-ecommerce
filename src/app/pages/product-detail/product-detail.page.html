@@ -1,0 +1,55 @@
+<!-- IMPORTAMOS EL COMPONETE HEADER -->
+<ion-header mode="md">
+  <ion-toolbar>
+     <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+     </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card class="animated-card">
+    <ion-grid>
+      <ion-row>
+       
+        <ion-col size="12" size-md="6" class="image-container">
+          <img [src]="product?.image" alt="{{ product?.title }}" class="product-image" />
+        </ion-col>
+        
+        
+        <ion-col size="12" size-md="6" class="info-container">
+          <ion-card-header>
+            <ion-card-title class="text-center product-title">{{ product?.title }}</ion-card-title>
+          </ion-card-header>
+          
+          <ion-card-content class="text-center">
+            <p class="price">$ {{ product?.price }}</p>
+            <p class="category"><strong>Categoría:</strong> {{ product?.category }}</p>
+            <p class="description"><strong>Descripción:</strong> {{ product?.description }}</p>
+
+           
+            <ion-item class="quantity-selector">
+              <ion-label position="stacked">Cantidad</ion-label>
+              <ion-input type="number" value="1" min="1"></ion-input>
+            </ion-item>
+
+   
+            <div class="button-container">
+              <ion-button expand="full" color="warning" class="rounded-button add-to-cart" (click)="addToCart(product)">Añadir al carrito</ion-button>
+              <ion-button expand="full" class="rounded-button favorite-button">Favorito</ion-button>
+            </div>
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-card class="related-products-card">
+    <ion-card-header>
+      <ion-card-title class="text-center">Productos Relacionados</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>    
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

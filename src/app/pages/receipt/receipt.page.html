@@ -1,0 +1,45 @@
+<ion-header mode="md">
+  <ion-toolbar>
+     <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+     </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<div class="receipt-container">
+  <ion-card *ngIf="paymentData">
+    <div class="logo-container">
+      <img src="assets/icon/favicon.png" alt="Logo de la tienda">
+      <div class="company-details">
+        <p><strong>Mercado Express</strong></p>
+        <p>www.mercado-express.com</p>
+        <p>Tel: +56 3007200894</p>
+      </div>
+    </div>
+
+    <ion-card-header>
+      <ion-card-title>Factura de Compra</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="info-section">
+        <p><strong>Nombre:</strong> {{ paymentData.name }} {{ paymentData.lastName }}</p>
+        <p><strong>Dirección:</strong> {{ paymentData.address }}, {{ paymentData.city }}, {{ paymentData.country }}</p>
+        <p><strong>Número de Cuenta:</strong> {{ paymentData.bankAccount }}</p>
+        <p><strong>Fecha de Expiración:</strong> {{ paymentData.dueDate }}</p>
+      </div>
+
+      <h3>Productos:</h3>
+      <ul>
+        <li *ngFor="let item of paymentData?.cart">
+          <span>{{ item.title }}</span> 
+          <span>${{ item.price }} x {{ item.quantity }}</span>
+        </li>
+      </ul>
+
+      <h2 class="total">Total: ${{ paymentData.total }}</h2>
+    </ion-card-content>
+
+    <ion-button expand="full" (click)="printPDF()">Imprimir PDF</ion-button>
+  </ion-card>
+</div>

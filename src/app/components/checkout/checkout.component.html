@@ -1,0 +1,61 @@
+<ion-card class="checkout-card">
+  <ion-card-header>
+    <ion-card-title>Información Personal</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <form [formGroup]="checkoutForm" (ngSubmit)="submitForm()">
+      <h3>Datos Personales</h3>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Nombre</ion-label>
+        <ion-input formControlName="name" placeholder="Nombre"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Apellido</ion-label>
+        <ion-input formControlName="lastName" placeholder="Apellido"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">País</ion-label>
+        <ion-input formControlName="country" placeholder="Pais"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Ciudad</ion-label>
+        <ion-input formControlName="city" placeholder="Ciudad"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Dirección</ion-label>
+        <ion-input formControlName="address" placeholder="Dirección"></ion-input>
+      </ion-item>
+
+      <h3>Información de Pago</h3>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Número de Cuenta Bancaria</ion-label>
+        <ion-input formControlName="bankAccount" placeholder="Nuemero de banco"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">CVC</ion-label>
+        <ion-input type="password" formControlName="cvc" placeholder="cvc"></ion-input>
+      </ion-item>
+
+      <ion-item class="custom-item">
+        <ion-label position="stacked">Fecha de Vencimiento</ion-label>
+        <ion-input formControlName="dueDate" placeholder="MM/YY"></ion-input>
+      </ion-item>
+
+      <div class="total">
+        <p>Total a Pagar: <strong>{{ total | currency }}</strong></p>
+      </div>
+
+      <ion-button expand="full" type="submit" [disabled]="checkoutForm.invalid">
+        Pagar
+      </ion-button>
+    </form>
+  </ion-card-content>
+</ion-card>

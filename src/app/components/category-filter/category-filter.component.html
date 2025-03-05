@@ -1,0 +1,31 @@
+
+<ion-row>
+  <div class="order-section">
+    <label class="order-label">Order</label>
+    <div class="buttons">
+      <ion-button 
+        expand="block" 
+        class="order-button" 
+        [color]="order === 'asc' ? 'success' : 'light'" 
+        (click)="changeOrder('asc')">
+        ASC
+      </ion-button>
+  
+      <ion-button 
+        expand="block" 
+        class="order-button" 
+        [color]="order === 'desc' ? 'danger' : 'light'" 
+        (click)="changeOrder('desc')">
+        DESC
+      </ion-button>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <ion-select (ionChange)="onCategoryChange($event)" placeholder="Selecciona una categoría">
+      <ion-select-option *ngFor="let category of categories" [value]="category">
+        {{ category }}
+      </ion-select-option>
+    </ion-select>
+  </div>
+</ion-row>
