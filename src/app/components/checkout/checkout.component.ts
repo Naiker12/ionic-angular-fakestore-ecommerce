@@ -11,8 +11,7 @@ import { CheckoutService } from 'src/app/shared/services/checkout.service';
   selector: 'app-checkout-form',
   templateUrl: './checkout.component.html',
   styleUrls: ['./checkout.component.scss'],
-  standalone: true,
-  imports: [CommonModule, IonicModule, ReactiveFormsModule]
+  standalone: false
 })
 export class CheckoutComponent {
   checkoutForm: FormGroup;

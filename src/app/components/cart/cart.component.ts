@@ -9,8 +9,7 @@ import { CartService } from 'src/app/shared/services/Cart.Service';
   selector: 'app-cart',
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.scss'],
-  standalone : true,
-  imports: [CommonModule, IonicModule],
+  standalone : false
 })
 export class CartComponent {
   cart: ProductCart[] = [];

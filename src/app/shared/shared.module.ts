@@ -14,22 +14,15 @@ import { CheckoutComponent } from '../components/checkout/checkout.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [ProductCardComponent ,HeaderComponent, CategoryFilterComponent, CartComponent, CheckoutComponent],
   imports: [
     CommonModule,
     IonicModule,
     HttpClientModule,
     FormsModule,
-    ProductCardComponent,
-    HeaderComponent,
-    CategoryFilterComponent,
-    CartComponent,
     ReactiveFormsModule,
-    CheckoutComponent
- 
-
-
   ],
+  
   providers : [ProductService],
   exports : [ 
     HttpClientModule,
@@ -42,10 +35,7 @@ import { CheckoutComponent } from '../components/checkout/checkout.component';
     CategoryFilterComponent ,
     CartComponent ,
     ReactiveFormsModule,
-    CheckoutComponent
-   
-
-  
+    CheckoutComponent 
   ],   
 })
 export class SharedModule { }

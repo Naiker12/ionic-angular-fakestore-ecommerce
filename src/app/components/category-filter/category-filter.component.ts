@@ -7,15 +7,14 @@ import { CategoryService } from 'src/app/shared/services/category.service';
   selector: 'app-category-filter',
   templateUrl: './category-filter.component.html',
   styleUrls: ['./category-filter.component.scss'],
-  standalone: true,
-  imports: [CommonModule, IonicModule],
+  standalone: false
 })
 export class CategoryFilterComponent implements OnInit {
   categories: string[] = [];
-  order: 'asc' | 'desc' = 'asc'; // Estado del orden
+  order: 'asc' | 'desc' = 'asc'; 
 
   @Output() categorySelected = new EventEmitter<string>();
-  @Output() orderChanged = new EventEmitter<'asc' | 'desc'>(); // Nuevo evento para emitir el orden
+  @Output() orderChanged = new EventEmitter<'asc' | 'desc'>();
 
   constructor(private categoryService: CategoryService) {}
 

@@ -8,8 +8,7 @@ import {  IonicModule } from '@ionic/angular'
   selector: 'app-product-card',
   templateUrl: './product-card.component.html',
   styleUrls: ['./product-card.component.scss'],
-  standalone : true,
-  imports : [CommonModule , IonicModule , RouterModule]
+  standalone : false
 })
 export class ProductCardComponent  implements OnInit {
 

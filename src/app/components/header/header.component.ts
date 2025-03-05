@@ -8,8 +8,7 @@ import { CartComponent } from '../cart/cart.component';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  standalone : true,
-  imports : [CommonModule , IonicModule ]
+  standalone : false
   
 })
 export class HeaderComponent  implements OnInit {

@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from 'src/app/shared/services/Cart.Service';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @Component({
   selector: 'app-checkout',
   templateUrl: './checkout.page.html',
   styleUrls: ['./checkout.page.scss'],
-  standalone: false
+  standalone: false 
 })
 export class CheckoutPage implements OnInit {
   total: number = 0;
