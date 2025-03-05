@@ -52,7 +52,7 @@ export class ProductDetailPage implements OnInit {
       title: product.title,
       price: product.price,
       image: product.image,
-      quantity: 1 // Asegurar que siempre tenga un valor inicial
+      quantity: 1 
     };
   
     this.cartService.addToCart(productToAdd);

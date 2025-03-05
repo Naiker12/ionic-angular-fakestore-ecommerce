@@ -22,7 +22,7 @@ export class HeaderComponent  implements OnInit {
 
   ngOnInit() {
     this.cartService.cart$.subscribe(cart => {
-      console.log("Productos en el carrito:", cart); // Debug
+      console.log("Productos en el carrito:", cart); 
       this.cartCount = cart.reduce((total, product) => total + product.quantity, 0);
     });
     

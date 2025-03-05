@@ -15,6 +15,7 @@ export class CartComponent {
   cart: ProductCart[] = [];
   totalPrice: number = 0;
   cartItems: ProductCart[] = [];
+
   
 
   constructor(
@@ -77,6 +78,5 @@ export class CartComponent {
   getTotal(): number {
     return this.cart.reduce((acc, product) => acc + (product.price * product.quantity), 0);
   }
-  
-  
+
 }
