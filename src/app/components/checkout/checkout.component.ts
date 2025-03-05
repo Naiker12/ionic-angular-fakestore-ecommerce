@@ -51,7 +51,6 @@ export class CheckoutComponent {
   
       this.checkoutService.processPayment(paymentData);
       
-      // Forzar recarga de la página de recibo
       this.router.navigate(['/receipt']).then(() => {
         window.location.reload();
       });
