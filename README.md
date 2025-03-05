@@ -20,11 +20,11 @@ Para instalar y ejecutar DragonBallAPI, sigue estos pasos:
 FakeStoreAPI es una API RESTful gratuita que proporciona datos de ejemplo sobre productos, categorías, carritos y usuarios. Es ideal para pruebas, desarrollo de interfaces de usuario y simulaciones de comercio electrónico.
 
 ## Características Principales
--✅ Productos de ejemplo con imágenes, precios y descripciones.
--✅ Información estructurada de categorías de productos.
--✅ Simulación de carritos de compras y usuarios.
--✅ API REST fácil de integrar en cualquier aplicación.
--✅ Respuesta en formato JSON lista para consumir.
+# ✅ Productos de ejemplo con imágenes, precios y descripciones.
+# ✅ Información estructurada de categorías de productos.
+# ✅ Simulación de carritos de compras y usuarios.
+# ✅ API REST fácil de integrar en cualquier aplicación.
+# ✅ Respuesta en formato JSON lista para consumir.
 
 ## Tecnologías Utilizadas
 Ionic +  Angular.
