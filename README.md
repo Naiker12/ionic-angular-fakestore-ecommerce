@@ -70,16 +70,17 @@ Endpoints Principales
 Para más información, contáctanos en: gomeznaieker@gmail.com
 
 # Intro Page
-![Captura de pantalla 2025-03-04 224213](https://github.com/user-attachments/assets/ba365e4d-4c80-4a97-abee-0bc798d1dcf0)
-![Captura de pantalla 2025-03-04 224200](https://github.com/user-attachments/assets/c40c2e17-73ee-4b5d-9a75-9d3ec7cdcfbb)
-![Captura de pantalla 2025-03-04 224148](https://github.com/user-attachments/assets/d0e77a55-db64-4c44-956c-ef7c862b2af0)
-![Captura de pantalla 2025-03-04 224131](https://github.com/user-attachments/assets/051bfc2b-d8ae-4ead-bebe-8994b1e655dd)
-![Captura de pantalla 2025-03-04 224113](https://github.com/user-attachments/assets/2b2811f2-efc3-4189-bd6f-fd13012d6422)
-![Captura de pantalla 2025-03-04 224058](https://github.com/user-attachments/assets/6ed015a5-3780-4595-8b63-7105f1c52fb7)
-![Captura de pantalla 2025-03-04 224356](https://github.com/user-attachments/assets/97273727-0e9c-4f73-acb7-937a199e5346)
-![Captura de pantalla 2025-03-04 224341](https://github.com/user-attachments/assets/ed652eb7-c752-4dc1-a426-c72e21b5c014)
-![Captura de pantalla 2025-03-04 224255](https://github.com/user-attachments/assets/41636f37-c659-4686-8798-89694524aacb)
-![Captura de pantalla 2025-03-04 224239](https://github.com/user-attachments/assets/d78409a3-5d4e-4b1b-a0e4-b2d16d62f0d4)
-![Captura de pantalla 2025-03-04 224414](https://github.com/user-attachments/assets/d6d8a4f1-9461-4c5c-ac1c-5fdf94e24644)
+![Captura de pantalla 2025-03-04 224058](https://github.com/user-attachments/assets/8843c6bb-3c3d-42b5-8949-119c11f2257e)
+![Captura de pantalla 2025-03-04 224113](https://github.com/user-attachments/assets/c727f66d-cdb6-4872-99f1-e69871316915)
+![Captura de pantalla 2025-03-04 224131](https://github.com/user-attachments/assets/d6449b6f-822b-4a87-a273-1518327092fd)
+![Captura de pantalla 2025-03-04 224148](https://github.com/user-attachments/assets/a0a3c78c-e619-4f3a-94bf-58928a71bad8)
+![Captura de pantalla 2025-03-04 224200](https://github.com/user-attachments/assets/fd4c2e42-3979-4083-a896-428cca4b3a40)
+![Captura de pantalla 2025-03-04 224213](https://github.com/user-attachments/assets/8b13dd8f-f61f-453d-98bd-d55ae887799d)
+![Captura de pantalla 2025-03-04 224239](https://github.com/user-attachments/assets/2e440f73-13ae-40b2-b54e-b2312e8111d4)
+![Captura de pantalla 2025-03-04 224255](https://github.com/user-attachments/assets/eb62140e-ce71-4f69-9d7a-595ff2da0241)
+![Captura de pantalla 2025-03-04 224341](https://github.com/user-attachments/assets/50b4491b-66a2-4017-9b0c-80fcd27087d6)
+![Captura de pantalla 2025-03-04 224356](https://github.com/user-attachments/assets/29434825-8347-4fe1-b598-2e6860b15e12)
+![Captura de pantalla 2025-03-04 224414](https://github.com/user-attachments/assets/06c64984-a0d1-4ff3-9957-411200db5a6e)
+
 
 
