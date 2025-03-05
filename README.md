@@ -70,8 +70,5 @@ Endpoints Principales
 Para más información, contáctanos en: gomeznaieker@gmail.com
 
 # Intro Page
-![Captura de pantalla 2025-02-25 230714](https://github.com/user-attachments/assets/fdeefd2d-e4f0-4f5f-9b25-6e401d2024ff)
-![Captura de pantalla 2025-02-25 230757](https://github.com/user-attachments/assets/6b74216a-511e-4d0c-ad19-24f2f95c83eb)
-![Captura de pantalla 2025-02-25 230813](https://github.com/user-attachments/assets/01f9ba54-cb68-4549-a9b2-1546ed5be0ba)
-![Captura de pantalla 2025-02-25 230826](https://github.com/user-attachments/assets/19009809-c2b4-4d11-88e2-cc93191ca39e)
+
 
