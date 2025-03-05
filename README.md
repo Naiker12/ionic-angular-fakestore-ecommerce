@@ -81,6 +81,13 @@ Para más información, contáctanos en: gomeznaieker@gmail.com
 ![Captura de pantalla 2025-03-04 224341](https://github.com/user-attachments/assets/50b4491b-66a2-4017-9b0c-80fcd27087d6)
 ![Captura de pantalla 2025-03-04 224356](https://github.com/user-attachments/assets/29434825-8347-4fe1-b598-2e6860b15e12)
 ![Captura de pantalla 2025-03-04 224414](https://github.com/user-attachments/assets/06c64984-a0d1-4ff3-9957-411200db5a6e)
+![Captura de pantalla 2025-03-04 225836](https://github.com/user-attachments/assets/4760f540-6e61-451b-b44e-a0ed0bf9bf3a)
+![Captura de pantalla 2025-03-04 225852](https://github.com/user-attachments/assets/aa9f1db2-df6b-4e57-8aaf-ed0cd7a2365a)
+![Captura de pantalla 2025-03-04 225918](https://github.com/user-attachments/assets/b30568b5-918c-4a16-b767-e400687af76b)
+![Captura de pantalla 2025-03-04 230019](https://github.com/user-attachments/assets/2cf214f7-3e77-4e59-905a-78d31450f6ee)
+![Captura de pantalla 2025-03-04 230034](https://github.com/user-attachments/assets/7d85f02e-2580-4978-bdfe-a03e6facadb1)
+![Captura de pantalla 2025-03-04 230044](https://github.com/user-attachments/assets/fc5388af-78fd-4e0d-bed3-666a734c5d71)
+
 
 
 
