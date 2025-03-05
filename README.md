@@ -70,5 +70,16 @@ Endpoints Principales
 Para más información, contáctanos en: gomeznaieker@gmail.com
 
 # Intro Page
+![Captura de pantalla 2025-03-04 224213](https://github.com/user-attachments/assets/ba365e4d-4c80-4a97-abee-0bc798d1dcf0)
+![Captura de pantalla 2025-03-04 224200](https://github.com/user-attachments/assets/c40c2e17-73ee-4b5d-9a75-9d3ec7cdcfbb)
+![Captura de pantalla 2025-03-04 224148](https://github.com/user-attachments/assets/d0e77a55-db64-4c44-956c-ef7c862b2af0)
+![Captura de pantalla 2025-03-04 224131](https://github.com/user-attachments/assets/051bfc2b-d8ae-4ead-bebe-8994b1e655dd)
+![Captura de pantalla 2025-03-04 224113](https://github.com/user-attachments/assets/2b2811f2-efc3-4189-bd6f-fd13012d6422)
+![Captura de pantalla 2025-03-04 224058](https://github.com/user-attachments/assets/6ed015a5-3780-4595-8b63-7105f1c52fb7)
+![Captura de pantalla 2025-03-04 224356](https://github.com/user-attachments/assets/97273727-0e9c-4f73-acb7-937a199e5346)
+![Captura de pantalla 2025-03-04 224341](https://github.com/user-attachments/assets/ed652eb7-c752-4dc1-a426-c72e21b5c014)
+![Captura de pantalla 2025-03-04 224255](https://github.com/user-attachments/assets/41636f37-c659-4686-8798-89694524aacb)
+![Captura de pantalla 2025-03-04 224239](https://github.com/user-attachments/assets/d78409a3-5d4e-4b1b-a0e4-b2d16d62f0d4)
+![Captura de pantalla 2025-03-04 224414](https://github.com/user-attachments/assets/d6d8a4f1-9461-4c5c-ac1c-5fdf94e24644)
 
 
