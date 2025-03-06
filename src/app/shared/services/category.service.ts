@@ -14,7 +14,4 @@ export class CategoryService {
     return this.http.get<string[]>(this.apiUrl);
   }
 
-  // getProductsByCategory(category: string): Observable<Product[]> {
-  //   return this.http.get<Product[]>(`${this.apiUrl}/products/category/${category}`);
-  // }
 }
