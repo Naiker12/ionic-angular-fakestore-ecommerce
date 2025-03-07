@@ -9,6 +9,7 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "baseHref": "/ionic-angular-fakestore-ecommerce/",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
